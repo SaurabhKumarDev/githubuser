@@ -1,0 +1,50 @@
+#homeImg {
+    height: 20rem;
+}
+#randomWidth {
+    width: 15vw;
+}
+.userPosition {
+    position: fixed;
+    width: 18%;
+}
+.width100 {
+    width: 25%;
+    margin-bottom: 3rem;
+}
+.userRepoWidth {
+    width: 70%;
+}
+@media screen and (max-width: 750px) {
+    #flexInCols {
+        flex-direction: column;
+    }
+    #homeImg {
+        height: 9rem;
+    }
+    #homeText {
+        text-align: center;
+    }
+    #randomWidth {
+        width: 35vw;
+    }
+}
+@media screen and (max-width: 770px) {
+    .userFlex {
+        flex-direction: column;
+    }
+    .userPosition {
+        position: static;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .width100 {
+        width: 100%;
+    }
+    .userRepoWidth {
+        width: 100%;
+    }
+}
